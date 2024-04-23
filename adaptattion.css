@@ -1,5 +1,5 @@
 @media (max-width: 720px) {
-    .position {
+    .sop {
         flex-direction: column;
     }
 }
@@ -9,7 +9,7 @@
         flex-direction: column;
     }
 
-    .vooooo {
+    .rama {
         flex-direction: column;
     }
 
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 1160px) {
-    .pis {
+    .spin {
         flex-direction: column;
     }
 }
@@ -29,7 +29,7 @@
         flex-direction: column;
     }
 
-    .kurs_11 {
+    .zapis_11 {
         max-width: 300px;
     }
 }
