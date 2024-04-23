@@ -1,0 +1,461 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+body {
+    color: white;
+    font-family: "Bahnschrift";
+    font-weight: 100;
+    font-style: normal;
+    background: #252237;
+}
+.logotip {
+    font-size: 40px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 95px;
+    cursor: pointer;
+}
+.sop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.sop img {
+    width: 100%;
+    max-width: 400px;
+}
+.text1 {
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+}
+.word {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+#zagolovok_1 {
+    font-size: 50px;
+}
+#p_text {
+    padding-bottom: 20px;
+}
+
+.zapis {
+    color: white;
+    background: rgb(212, 86, 7);
+    border-radius: 5px;
+    line-height: 80px;
+    width: 100%;
+    max-width: 393px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    box-shadow: 0px 0px 8px 1px #CA0050;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.wrap img {
+    width: 100%;
+    max-width: 400px;
+}
+.text_52 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#zagolovok_2 {
+    font-size: 40px;
+}
+
+.color {
+    color: #E2521D;
+    font-size: 20px;
+}
+
+.text2 {
+    width: 100%;
+    font-size: 20px;
+    color: white;
+}
+
+#zagolovok_3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.adidas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.wrap2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.block_nums {
+    max-width: 300px;
+    padding: 10px;
+}
+
+.war {
+    max-width: 75px;
+    line-height: 75px;
+    font-size: 30px;
+    border: 1px solid #E2521D;
+    background-color: #E2521D;
+    background: #252237;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.war-word {
+    padding: 10px;
+    font-size: 15px;
+}
+
+#zagolovok_4 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.box {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+.box-item {
+    margin-bottom: 5px;
+    border: 1px solid #E2521D;
+    background: #252237;
+}
+
+.box-input {
+    width: 0;
+    height: 0;
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+
+}
+
+.box-input:checked~.box-text {
+    display: block;
+}
+
+.box-input:checked~.box-titel {
+    background-color: #E2521D;
+}
+
+.box-input:checked~.box-titel:after {
+    border-style: solid;
+    border-width: 0 5px 8px 5px;
+    border-color: transparent transparent white transparent;
+
+}
+
+#zagolovok_5 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.rama {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.color_1 {
+    color: #E2521D;
+    font-size: 20px;
+}
+
+.text_lalala {
+    font-size: 20px;
+    padding-top: 20px;
+}
+
+.photo_printf img {
+    width: 100%;
+    max-width: 400px;
+}
+
+#zagolovok_6 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.wrap_ads {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;
+    padding: 20px;
+}
+
+.text3 {
+    font-size: 20px;
+    padding-top: 20px;
+    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.zapis1 {
+    display: block;
+    color: white;
+    line-height: 40px;
+    width: 100%;
+    max-width: 600px;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    background: #E2521D;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.zapis2 {
+    display: block;
+    width: 100%;
+    color: white;
+    background: #E2521D;
+    line-height: 60px;
+    max-width: 400px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.hopert {
+    font-size: 30px;
+    text-align: center;
+}
+
+.nip {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.spin {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.corsa_block {
+    padding: 0px 40px 20px 40px;
+}
+
+.corsa {
+    margin: 0 auto;
+}
+
+.boom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.course_info {
+    text-align: center;
+}
+
+.spanf {
+    color: rgb(197, 5, 108);
+}
+#email_access {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.email {
+    padding: 10px;
+    background-color: #252237;
+    color: white;
+    border: 2px solid #E2521D;
+    border-radius: 5px;
+}
+
+#email_access input {
+    max-width: 200px;
+}
+
+.email:focus {
+    outline: none;
+    border-color: #E2521D;
+}
+
+.custom-checkbox {
+    display: inline-block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.custom-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.custom-checkbox {
+    display: flex;
+    margin: 8px auto;
+    width: fit-content;
+    gap: 8px;
+}
+
+.custom-checkbox input:checked+.checkmark {
+    background-color: #E2521D;
+}
+
+.custom-checkbox input:checked+.checkmark:after {
+    display: block;
+}
+
+.custom-checkbox p {
+    padding: 3px;
+}
+
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #252237;
+    border: 2px solid #E2521D;
+    border-radius: 3px;
+}
+
+.checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+#back {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #252237;
+    border-bottom: 1px solid #252237;
+    border-radius: 25px;
+}
+
+.oplata_secruriti {
+    display: flex;
+}
+
+.one img {
+    max-width: 190px;
+}
+
+.two img {
+    max-width: 160px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.box-titel {
+    padding: 25px 25px;
+    display: block;
+    color: white;
+    position: relative;
+    cursor: pointer;
+    transition: background .2s ease-out;
+}
+
+.box-titel::after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 8px 5px 0 5px;
+    border-color: white transparent transparent transparent;
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+
+}
+
+.box-titel:hover {
+    background-color: #E2521D;
+}
+
+.box-text {
+    display: none;
+    padding: 30px 30px;
+    color: white;
+    font-size: 21px;
+    background: #252237;
+}
+
+#forma {
+    margin-bottom: 9%;
+}
+
+#forma_text {
+    position: relative;
+    top: -25px;
+}
+
+.spans {
+    color: #b5b5b5;
+}
